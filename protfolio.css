@@ -83,29 +83,52 @@ nav a{
 }
 .banner-line{
     color:  #757575;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
 }
 .about{
     padding: 130px;
     border-radius: 10px;
     background-color: #FFF8f3 ;
+    margin: 130px;
     
 }
 .section-description{
     color: #757575;
-text-align: center;
-font-family: Open Sans;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
 
 }
  .section-title{
     color: #181818;
-text-align: center;
-font-family: Open Sans;
-font-size: 35px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+ }
+ main{
+    width: 1140px;
+    margin: 0px auto;
+ }
+ .info-title{
+    color: #757575;
+ }
+ .about-info-container{
+    display: flex;
+    justify-content: space-around;
+ }
+ #what-i-do-description{
+    padding: 30px 150px;
+ }
+ .skills-container{
+    display: flex;
+    justify-content: space-around;
  }
